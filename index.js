@@ -6,12 +6,12 @@ const miniSearch = require('minisearch');
 const express = require("express");
 const app = express();
 
-app.listen(3000, () => {
+app.listen(3001, () => {
   console.log("whatever you want here");
 });
 
 app.get("/", (req, res) => {
-  res.send("whatever you want here");
+  res.send("whatever f you want here");
 });
 
 // If you are going to fork this, remove line 5-14, they are there for hosting purpose, you don't need them if you run locally
@@ -70,4 +70,4 @@ client.modelSearchEngine.addAll(documents);
 
 // Add your bot token in the token variable in the .env file (create it if it doesn't exist)
 // Then use dotenv to read the token from that file
-client.login(process.env.token);
+client.login("MTEzOTQ1MDM5OTIyOTc1NTM5Mg.GWyxAq.VE4yIP1nV7b3yqrSEWHCDEw6GiEgfLfx1cL6Dk");
